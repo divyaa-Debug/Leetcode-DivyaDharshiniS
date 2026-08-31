@@ -1,0 +1,10 @@
+// Last updated: 31/08/2026, 09:59:22
+1class Solution {
+2    public boolean isPowerOfTwo(int n) {
+3        if (n <= 0) return false;
+4        while (n % 2 == 0) {
+5            n /= 2;
+6        }
+7        return n == 1;
+8    }
+9}
